@@ -1,0 +1,29 @@
+{
+  "name": "location",
+  "version": "1.0.0",
+  "description": "api and socket connection for the passengers",
+  "main": "location.js",
+  "scripts": {
+    "dev": "nodemon location.js",
+    "start": "node location.js"
+  },
+  "keywords": [
+    "location",
+    "api"
+  ],
+  "author": "miri",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.9.10",
+    "request": "^2.88.2",
+    "socket.io": "^2.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3",
+    "yargs": "^15.3.1"
+  }
+}

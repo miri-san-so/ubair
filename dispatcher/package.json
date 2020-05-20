@@ -1,0 +1,23 @@
+{
+  "name": "dispatcher",
+  "version": "1.0.0",
+  "description": "processes passenger and drivers requests",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon dispatcher.js",
+    "node": "node dispatcher.js"
+  },
+  "author": "miri",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.9.10",
+    "request": "^2.88.2",
+    "socket.io": "^2.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3"
+  }
+}

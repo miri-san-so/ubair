@@ -1,0 +1,19 @@
+{
+  "name": "frontend",
+  "version": "1.0.0",
+  "description": "frontend application for ubair",
+  "author": "miri",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.10.1",
+    "nuxt": "^2.12.2",
+    "nuxt-socket-io": "^1.0.25"
+  },
+  "devDependencies": {}
+}

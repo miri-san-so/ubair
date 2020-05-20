@@ -1,0 +1,6 @@
+node_modules/
+nginx-1.18.0
+./sock
+gifs
+internalAPIKey.js
+README.md

@@ -1,0 +1,26 @@
+{
+  "name": "profile",
+  "version": "1.0.0",
+  "description": "access and modify profiles",
+  "main": "profile.js",
+  "scripts": {
+    "start": "node profile.js",
+    "dev": "nodemon profile.js"
+  },
+  "keywords": [
+    "profile",
+    "users"
+  ],
+  "author": "miri",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.9.10",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3"
+  }
+}
